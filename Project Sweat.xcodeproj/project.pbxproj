@@ -14,6 +14,8 @@
 		7C80EEEB1C9C31550098302C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C80EEE91C9C31550098302C /* LaunchScreen.storyboard */; };
 		7C80EEF61C9C31550098302C /* Project_SweatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C80EEF51C9C31550098302C /* Project_SweatTests.swift */; };
 		7C80EF011C9C31550098302C /* Project_SweatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C80EF001C9C31550098302C /* Project_SweatUITests.swift */; };
+		7C80EF0F1C9C3C4F0098302C /* Droplet.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C80EF0E1C9C3C4F0098302C /* Droplet.png */; };
+		7C80EF121C9C401A0098302C /* Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C80EF111C9C401A0098302C /* Background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7C80EEFC1C9C31550098302C /* Project SweatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project SweatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C80EF001C9C31550098302C /* Project_SweatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_SweatUITests.swift; sourceTree = "<group>"; };
 		7C80EF021C9C31550098302C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C80EF0E1C9C3C4F0098302C /* Droplet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Droplet.png; sourceTree = "<group>"; };
+		7C80EF111C9C401A0098302C /* Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 				7C80EEE71C9C31550098302C /* Assets.xcassets */,
 				7C80EEE91C9C31550098302C /* LaunchScreen.storyboard */,
 				7C80EEEC1C9C31550098302C /* Info.plist */,
+				7C80EF101C9C3DA50098302C /* Images */,
 			);
 			path = "Project Sweat";
 			sourceTree = "<group>";
@@ -123,6 +128,15 @@
 				7C80EF021C9C31550098302C /* Info.plist */,
 			);
 			path = "Project SweatUITests";
+			sourceTree = "<group>";
+		};
+		7C80EF101C9C3DA50098302C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7C80EF0E1C9C3C4F0098302C /* Droplet.png */,
+				7C80EF111C9C401A0098302C /* Background.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +243,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C80EF0F1C9C3C4F0098302C /* Droplet.png in Resources */,
 				7C80EEEB1C9C31550098302C /* LaunchScreen.storyboard in Resources */,
+				7C80EF121C9C401A0098302C /* Background.jpg in Resources */,
 				7C80EEE81C9C31550098302C /* Assets.xcassets in Resources */,
 				7C80EEE61C9C31550098302C /* Main.storyboard in Resources */,
 			);
@@ -403,6 +419,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ProductDesign.Project-Sweat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -414,6 +431,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ProductDesign.Project-Sweat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -484,6 +502,7 @@
 				7C80EF071C9C31550098302C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C80EF081C9C31550098302C /* Build configuration list for PBXNativeTarget "Project SweatTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +511,7 @@
 				7C80EF0A1C9C31550098302C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C80EF0B1C9C31550098302C /* Build configuration list for PBXNativeTarget "Project SweatUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +520,7 @@
 				7C80EF0D1C9C31550098302C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
